@@ -18,7 +18,7 @@ steps:
 uses: actions/checkout@main
 with:
 persist-credentials: false
-repository: M-Priour/validateCDA
+repository: souadbenmustapha/validateCDA
 path: validateCDA
 
 # Get REPO
