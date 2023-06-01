@@ -33,10 +33,10 @@ java-version: '17'
 - name: Validate        
 run: |
 cd validateCDA
-mkdir D:/a/TestContenuCDA-3-0/TestContenuCDA-3-0/report/
+mkdir C:\testContenuCDA-3-0\testContenuCDA-3-0\report
 Get-ChildItem –Path "../testContenuCDA/ExemplesCDA/*.xml" –Recurse |
 Foreach-Object {
-java -cp ./librairie/* ./validate.java -i $_.FullName -o D:/a/TestContenuCDA-3-0/TestContenuCDA-3-0/report 
+java -cp ./librairie/* ./validate.java -i $_.FullName -o C:\testContenuCDA-3-0\testContenuCDA-3-0\report 
 }
 
 
