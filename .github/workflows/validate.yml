@@ -21,8 +21,8 @@ persist-credentials: false
 repository: souadbenmustapha/validateCDA
 path: validateCDA
 
-# Get REPO
-- name: get REPO
+# Get owner
+- name: get owner
 uses: actions/checkout@v3
 with:      
 path: testContenuCDA
